@@ -1,0 +1,64 @@
+body{
+    padding: 0px;
+    margin: 0px;
+}
+
+.main{
+    background-color: rgb(57, 56, 56);
+    padding: 10px 20px 10px 20px;
+}
+
+.logo{
+    background-color: aqua;
+    padding: 20px;
+}
+
+.nav{
+    background-color: rgb(134, 134, 255);
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    text-align: center;
+    
+}
+
+.header{
+    background-color: bisque;
+    margin-bottom: 5px;
+    height: 100px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.side{
+    background-color: blue;
+    padding: 40px;
+    font-size: 30px;
+    width: 100px;
+    height: 150px;
+
+}
+
+.body{
+    background-color: teal;
+    padding: 20px;
+    font-size: 30px;
+    width: 2000px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.footer{
+    background-color: skyblue;
+    text-align: center;
+    color: rgb(0, 0, 0);padding: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding: 10px;
+    
+}

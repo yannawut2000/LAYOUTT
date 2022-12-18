@@ -1,0 +1,76 @@
+body{
+    padding: 0px;
+    margin: 0px;
+}
+
+.main{
+    background-color: rgb(57, 57, 56);
+    padding: 10px 20px 10px 20px;
+}
+
+
+.logo{
+    background-color: rgb(255, 0, 187);
+    padding: 10px;
+    flex: 50%;
+    font-size: 30px;
+    
+}
+
+
+.nav{
+    background-color: rgb(255, 0, 187);
+    padding: 10px;
+    flex: 50%;
+  font-size: 30px;
+    
+}
+
+.flex-container {
+    display: flex;
+    
+}
+
+.flex-container > div {
+    background-color: #f1f1f1;
+    color:aliceblue;
+    
+    margin: 20px;
+  padding: 10px;
+    width: 50px;
+    height: 170px;
+  
+  flex: 50%; 
+  }
+
+  .flex-container_ThreeBox {
+    display: flex;
+    height: 400px;
+    align-items: stretch;
+  }
+
+.flex-container_ThreeBox > div {
+    background-color: #fa00f2;
+    margin: 10px;
+    padding: 70px;
+    flex: 50px;
+    width: 100px;
+ 
+    font-size: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+    text-align: center;
+    
+}
+
+.footer{
+    background-color: rgb(2, 247, 255);
+    text-align: center;
+    font-size: 30px;
+    
+    color: rgb(0, 0, 0);padding: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding: 10px;
+}
